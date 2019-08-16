@@ -1,6 +1,6 @@
 function takeANumber(line,name) {
   line.push(name);
-  return (`Welcome, ${line.slice(1)}. You are number ${line.length} in line.`)
+  return (`Welcome, ${line.slice(-1)}. You are number ${line.length} in line.`)
 }
 
 function nowServing(line) {
